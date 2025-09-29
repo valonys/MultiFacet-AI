@@ -1,0 +1,5 @@
+{
+  "name": "MultiFacet AI",
+  "description": "A web application demonstrating the multimodal capabilities of AI, including image, video, and audio processing. This MVP provides a user-friendly interface to interact with various AI functionalities like Q&A, OCR, speech-to-text, and more.",
+  "requestFramePermissions": []
+}

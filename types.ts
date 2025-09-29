@@ -1,0 +1,17 @@
+
+export enum AIMode {
+  SINGLE_IMAGE_QA = 'SINGLE_IMAGE_QA',
+  MULTI_IMAGE_QA = 'MULTI_IMAGE_QA',
+  VIDEO_QA = 'VIDEO_QA',
+  DOCUMENT_PARSER = 'DOCUMENT_PARSER',
+  OCR = 'OCR',
+  GROUNDING = 'GROUNDING',
+  SPEECH_TO_TEXT = 'SPEECH_TO_TEXT',
+  TEXT_TO_SPEECH = 'TEXT_TO_SPEECH',
+  VOICE_CLONING = 'VOICE_CLONING',
+}
+
+export interface ImageFile {
+  file: File;
+  preview: string;
+}
